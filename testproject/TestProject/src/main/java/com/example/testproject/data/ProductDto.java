@@ -1,11 +1,11 @@
 package com.example.testproject.data;
 
 import com.example.testproject.data.entity.ProductEntity;
+import com.sun.istack.NotNull;
 import lombok.*;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
-import javax.validation.constraints.NotNull;
 
 @Data
 @NoArgsConstructor

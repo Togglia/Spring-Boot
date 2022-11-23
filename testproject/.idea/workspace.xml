@@ -15,6 +15,7 @@
       <list>
         <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -75,7 +76,57 @@
     &quot;spring.configuration.checksum&quot;: &quot;e58ada99268beaa5dc797c685ccffcfb&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.testproject.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ProductServiceImplTest">
+    <configuration name="ProductControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.testproject.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.testproject.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.testproject.controller.ProductControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.testproject.serviceimpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.testproject.serviceimpl" />
+      <option name="MAIN_CLASS_NAME" value="com.example.testproject.serviceimpl.ProductServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLifeCycle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.testproject.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.testproject.test" />
+      <option name="MAIN_CLASS_NAME" value="com.example.testproject.test.TestLifeCycle" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="TestProject" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.testproject.TestProjectApplication" />
@@ -91,6 +142,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductServiceImplTest" />
+        <item itemvalue="JUnit.ProductControllerTest" />
+        <item itemvalue="JUnit.TestLifeCycle" />
         <item itemvalue="Spring Boot.TestProjectApplication" />
       </list>
     </recent_temporary>
@@ -110,6 +164,7 @@
       <workItem from="1669081686583" duration="3781000" />
       <workItem from="1669094015984" duration="5374000" />
       <workItem from="1669114849263" duration="6840000" />
+      <workItem from="1669178848234" duration="15470000" />
     </task>
     <servers />
   </component>

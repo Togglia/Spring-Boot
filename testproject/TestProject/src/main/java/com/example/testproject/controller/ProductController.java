@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
+
 @RestController
 @RequestMapping("/api/v1/product-api")
 public class ProductController {
@@ -64,6 +65,6 @@ public class ProductController {
 
     @PostMapping(value = "/product/exception")
     public void exceptionTest() throws TestProjectException{
-        throw new TestProjectException(Constant.ExceptionClass.PRODUCT, HttpStatus.FORBIDDEN,"의도한 에러가 발생");
+        throw new TestProjectException(Constant.ExceptionClass.PRODUCT, HttpStatus.OK,"의도한 에러가 발생");
     }
 }
